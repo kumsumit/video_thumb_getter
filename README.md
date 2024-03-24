@@ -1,6 +1,8 @@
-# video_thumbnail
+# video_thumb_getter
 
-This plugin generates thumbnail from video file or URL.  It returns image in memory or writes into a file.  It offers rich options to control the image format, resolution and quality.  Supports iOS / Android / web.
+Original code by maRci002 and web support added by Alberto-Monteiro. The intent for this package is to maintain dependencies up to date and add support for WASM by migrating dart:html to package:web. 
+
+This plugin generates thumbnail from video file or URL.  It returns image in memory or writes into a file.  It offers rich options to control the image format, resolution and quality.  Supports iOS / Android / web. WASM compatible
 
 [![pub ver](https://img.shields.io/badge/pub-v0.6.1-blue)](https://pub.dev/packages/video_thumb_getter)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/justsoft/)
@@ -27,7 +29,7 @@ dependencies:
 ```
 **import**
 ```dart
-import 'package:video_thumb_getter/video_thumbnail.dart';
+import 'package:video_thumb_getter/video_thumb_getter.dart';
 
 ```
 **Generate a thumbnail in memory from video file**
