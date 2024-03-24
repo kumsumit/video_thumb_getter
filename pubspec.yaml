@@ -1,6 +1,6 @@
 name: video_thumb_getter
 description: A flutter plugin for creating a thumbnail from a local video file or from a video URL.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/gabrielginter/video_thumb_getter
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   plugin_platform_interface: ^2.1.8
-  http: any
+  http: ^1.2.1
   web: ^0.5.1
 
 dev_dependencies:
