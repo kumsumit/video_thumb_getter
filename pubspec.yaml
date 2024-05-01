@@ -14,8 +14,8 @@ dependencies:
   cross_file: ^0.3.4+1
   flutter_web_plugins:
     sdk: flutter
-  plugin_platform_interface:
-    git: https://github.com/kumsumit/plugin_platform_interface.git
+  plugin_platform_interface: ^2.1.8
+    # git: https://github.com/kumsumit/plugin_platform_interface.git
   http: ^1.2.1
   web: ^0.5.1
 
