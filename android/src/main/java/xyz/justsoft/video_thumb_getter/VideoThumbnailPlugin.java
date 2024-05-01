@@ -28,7 +28,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
 /**
  * VideoThumbnailPlugin
  */
-public class VideoThumbGetterPlugin implements FlutterPlugin, MethodCallHandler {
+public class VideoThumbnailPlugin implements FlutterPlugin, MethodCallHandler {
     private static final String TAG = "ThumbnailPlugin";
     private static final int HIGH_QUALITY_MIN_VAL = 70;
 

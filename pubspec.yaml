@@ -30,7 +30,7 @@ flutter:
     implements: video_thumbnail
     platforms:
       android:
-        package: xyz.justsoft.video_thumbnail
+        package: xyz.justsoft.video_thumb_getter
         pluginClass: VideoThumbnailPlugin
       ios:
         pluginClass: VideoThumbnailPlugin
